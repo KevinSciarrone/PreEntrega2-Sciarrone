@@ -44,10 +44,12 @@
         font-size: 1.6em;
     }
 
+/* nav article div ul li a:visited{
+    color: black;
+} */
 
 body{
     background-image: url(../Img/Fondos/FondoW.jpg);
-    /* este fondo se lo voy a sacar */
     background-repeat:repeat;
     background-attachment:fixed;
 }
@@ -168,14 +170,14 @@ main section article table{
     color: rgb(12, 12, 101);
 } */
 
-.contenedor{
+/* .contenedor{
     background-color: rgb(71, 68, 107, 1);
     width: 70%;
     height:auto;
     margin: 20px 30px;
     padding: 20px 30px;
     border: dashed 3px;
-}
+} */
 
 .contenedorx3{
     width: 50%;
@@ -184,6 +186,16 @@ main section article table{
     padding: 10px 20px;
     border: double;
 } 
+
+.colecciones{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+/* la coleccion la voy a hacer con bookstrap */
 
 .productos-inicio{
     display: flex;
@@ -287,6 +299,18 @@ main section article table{
     margin: 5px
 }
 
+.boton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+    .boton button{
+        color: whitesmoke;
+        background-color: rgb(9, 9, 124);
+        border-radius: 3px;
+    }
+
 .mayorista{
     display: flex;
     flex-direction: row;
@@ -369,4 +393,48 @@ main section article table{
         border-style: unset 10px;
     }  
 
+/* aca empieza responsive */
 
+@media (width < 768px){
+    h1, h2, h3{
+        text-align: center;
+    }
+    .colecciones{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+        .colecciones img{
+            margin-bottom: 10px;
+        }
+    .productos-inicio{
+        flex-direction: column;
+        align-items: center;
+    }
+    .redes{
+        justify-content: space-between;
+        align-items: center;
+    }
+    /*termina la pagina de inicio */
+    .productos{
+        display: grid;
+        grid-template-columns: repeat(2 1fr);
+        grid-template-rows: auto;
+        justify-content: center;
+        align-items: center;  
+        padding: 10px 20px;
+        margin: 20px;
+        text-decoration-style: wavy;
+        grid-template-areas:
+        "producto1 producto1"
+        "producto2 producto2"
+        "producto3 producto3"
+        "producto4 producto4"
+        "producto5 producto5"
+        "producto6 producto6"
+        "producto7 producto7"
+        "producto8 producto8"
+        "producto9 producto9" ;
+    } 
+      /*termina la pagina de producto  */
+}
