@@ -192,15 +192,8 @@ main section article table{
 } 
 
 .colecciones{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
     padding: 10px 20px;
 }
- .colecciones a img{
-    width: 100%;
- }
 /* la coleccion la voy a hacer con bookstrap */
 
 .productos-inicio{
@@ -240,6 +233,11 @@ main section article table{
 
 .filtros{
     color: rgb(13, 1, 30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    margin-bottom: 10px;
 }
     .filtros label:hover{
         color: blue;
@@ -255,6 +253,7 @@ main section article table{
     margin: 20px;
     text-decoration-style: wavy;
     grid-template-areas:
+    
     "producto1 producto2 producto3"
     "producto4 producto5 producto6"
     "producto7 producto8 producto9" ;
@@ -294,7 +293,7 @@ main section article table{
 }
 .producto5{
     padding: 5px 10px;
-    margin: 10px
+    margin: 5px
 }
 .producto6{
     padding: 5px 10px;
@@ -312,6 +311,7 @@ main section article table{
     padding: 5px 10px;
     margin: 5px
 }
+
 
 .boton{
     display: flex;
