@@ -48,9 +48,6 @@
         text-decoration: underline;
     }
 
-/* nav article div ul li a:visited{
-    color: black;
-} */
 
 body{
     background-image: url(../Img/Fondos/FondoW.jpg);
@@ -108,7 +105,7 @@ label{
 }
 
 img{
-    width: 20%;
+    width: 60%;
 }
 
 .text-center{
@@ -156,7 +153,9 @@ main section article table{
         font-size: 0.8em;
     }
 
-.salto-pagina{
+/* Estos comentarios son para la paginacion que encontre de bookstrap. nunca le pude dar mi css */
+
+/* .salto-pagina{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -167,34 +166,27 @@ main section article table{
         font-size: 1.2em;
         color: rgb(59, 20, 149);
         text-decoration: none;
-    }
+    } */
 
 /* pagination-color{
     background-color: rgb(221, 235, 248);
     color: rgb(12, 12, 101);
 } */
 
-/* .contenedor{
-    background-color: rgb(71, 68, 107, 1);
-    width: 70%;
-    height:auto;
+.contenedorx3{
+    background-color: rgb(107, 106, 119);
+    color: black;
     margin: 20px 30px;
     padding: 20px 30px;
-    border: dashed 3px;
-} */
+    border: none
+}
 
-.contenedorx3{
-    width: 50%;
-    height: auto;
-    margin: 30px;
-    padding: 10px 20px;
-    border: double;
-} 
 
 .colecciones{
     padding: 10px 20px;
+    margin: 20px 10px;
+
 }
-/* la coleccion la voy a hacer con bookstrap */
 
 .productos-inicio{
     display: flex;
@@ -238,7 +230,9 @@ main section article table{
     align-items: center;
     padding: 10px 20px;
     margin-bottom: 10px;
+    border-radius: 10px;
 }
+    
     .filtros label:hover{
         color: blue;
     }
@@ -273,6 +267,11 @@ main section article table{
         text-align: center;
         margin-bottom: 2px;
         width: 100%;
+        font-style: italic;
+    }
+    .productos figure button:hover{
+        color: blue;
+
     }
 
 .producto1{
@@ -364,6 +363,15 @@ main section article table{
         width: 50%;
         height: auto;
     }
+.img-mayorista{
+    width: 95%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    padding: 20px 20px;
+
+}
 
 .inframe{
     display: flex;
