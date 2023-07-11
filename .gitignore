@@ -2,3 +2,4 @@
 *.log
 *.ai
 *.vscode
+node_modules/
