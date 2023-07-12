@@ -1,0 +1,125 @@
+//commons//
+
+*{
+    font-family: $font1;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../Img/Fondos/FondoW.jpg);
+    background-repeat:repeat;
+    background-attachment:fixed;
+}
+
+
+header{
+    width: 100%;
+}
+
+
+h1{
+    color: $color-text;
+    font-size: $fuente1;
+    text-transform: uppercase;
+    text-overflow: ellipsis;
+    padding: $padding;
+}
+
+h2{
+    font-size: $fuente2;
+    color: $color-text;
+    padding: $padding;
+}
+
+h3{
+    font-size: $fuente3;
+    color: $color-text;
+    text-transform: uppercase;
+    padding: $padding;
+}
+
+h6{
+    font-size: fuente4;
+    color: $color-black;
+    padding: $padding;
+    margin: 10px;
+}
+
+p{
+    color:$color-blue;
+    font-style: $font2;
+    font-weight: 300px;
+    line-height: 10px;
+    font-size: 2em;
+    /* no tiene que ser menor */
+    line-height: 24px;
+}
+label{
+    color: $color-blue;
+
+}
+
+img{
+    width: 60%;
+}
+
+.text-center{
+    text-align: $center;
+}
+.text-left{
+    text-align: $left;
+}
+
+/* empieza la nav */
+.barra{
+    background-color: $bakcground;
+}     
+    .img{
+        width: 100px;
+    }
+    .a{
+        color: azure;
+        font-size: $fuente5;
+        background-image: linear-gradient();
+        background-position: 0% 100%;
+        background-repeat: no-repeat;
+        background-size: 0% 2px;
+        transition: background-size 0.8s;
+    }
+    .a:hover{
+        color: rgb(7, 1, 1);
+        background-size: 100% 2px;
+    }
+
+/* empieza el footer */
+footer{
+    background-color: rgb(45, 44, 44);
+    padding: $padding;
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+    svg{
+        width: 30%;
+        height: 30px;
+        fill: azure;
+        margin-right: 20px;
+    }
+
+.redes{
+    display: flex;
+    justify-content: $right;
+    padding: 8px;
+}
+
+
+.box-top{
+    padding: 2px 0;
+    text-align: $center;
+    background-color: rgb(235, 11, 11);
+}
+    .p{
+        margin: 2px;
+        font-size: $fuente6;
+        font-style: $font2;
+    }

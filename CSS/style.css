@@ -215,13 +215,11 @@ main section article table{
             width: 100%;
         }
 
-.buscador{
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
- }
 
 .filtros{
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     color: rgb(13, 1, 30);
     display: flex;
     justify-content: center;
@@ -235,6 +233,8 @@ main section article table{
         color: blue;
     }
 
+
+    
 .productos{
     display: grid;
     grid-template-columns: repeat(3 1fr);

@@ -1,0 +1,98 @@
+//productos//
+
+.productos{
+    display: grid;
+    grid-template-columns: repeat(3 1fr);
+    grid-template-rows: auto;
+    justify-content: $center;
+    align-items: $center;  
+    padding: $padding;
+    margin: 20px;
+    text-decoration-style: wavy;
+    grid-template-areas:
+    
+    "producto1 producto2 producto3"
+    "producto4 producto5 producto6"
+    "producto7 producto8 producto9" ;
+}
+    .figure{
+        border-style: groove;
+    }
+        .img{
+            width: 33%;
+            justify-content: $center;
+        }
+        .figcaption{
+            justify-content: $center;
+        }
+    .button{
+        border: none;
+        padding: 6px 30px;
+        background-color: rgb(148, 152, 158);
+        border-radius: 3px;
+        color: $color-black;
+        text-align: $center;
+        margin-bottom: 2px;
+        width: 100%;
+        font-style: $font2;
+    }
+    .button:hover{
+        color: $color-hover;
+
+    }
+
+.producto1{
+    padding: 5px 10px;
+    margin: 5px
+}
+.producto2{
+    padding: 5px 10px;
+    margin: 5px
+}
+.producto3{
+    padding: 5px 10px;
+    margin: 5px
+}
+.producto4{
+    padding: 5px 10px;
+    margin: 5px
+}
+.producto5{
+    padding: 5px 10px;
+    margin: 5px
+}
+.producto6{
+    padding: 5px 10px;
+    margin: 5px
+}
+.producto7{
+    padding: 5px 10px;
+    margin: 5px
+}
+.producto8{
+    padding: 5px 10px;
+    margin: 5px
+}
+.producto9{
+    padding: 5px 10px;
+    margin: 5px
+}
+
+//filtros//
+
+.filtros{
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    color: $color-black;
+    display: flex;
+    justify-content: $center;
+    align-items: $center;
+    padding: $padding;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+    
+    .filtros label:hover{
+        color: $color-hover;
+    }

@@ -1,0 +1,32 @@
+//contacto//
+
+.contacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: $center;
+    padding: 20px 30px;
+    margin: auto;
+    border-radius: 2px;
+}
+    .table tr th{
+        color: $color-productos;
+        text-decoration: $sub;
+        font-weight: 800;
+    }
+    .table tr td{
+        color: $color-blue;
+        text-decoration: $sub;
+    }
+
+ .inframe-contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: $center;
+    align-items: $center;
+    padding: 20px 30px;
+    margin: 20px;
+}
+    .inframe{
+        border-style: unset 10px;
+    } 
