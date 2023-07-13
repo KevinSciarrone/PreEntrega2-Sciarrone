@@ -8,16 +8,17 @@
     padding: 20px 30px;
     margin: auto;
     border-radius: 2px;
-}
-    .table tr th{
+
+    th{
         color: $color-productos;
         text-decoration: $sub;
         font-weight: 800;
     }
-    .table tr td{
+    td{
         color: $color-blue;
         text-decoration: $sub;
     }
+}
 
  .inframe-contacto{
     display: flex;
@@ -26,7 +27,16 @@
     align-items: $center;
     padding: 20px 30px;
     margin: 20px;
-}
-    .inframe{
+
+    iframe{
         border-style: unset 10px;
     } 
+}
+
+.contenedorx3{
+    background-color: rgb(155, 155, 159);
+    color: black;
+    margin: 20px 30px;
+    padding: 20px 30px;
+    border: none
+}

@@ -20,12 +20,14 @@ h1 {
   text-transform: uppercase;
   text-overflow: ellipsis;
   padding: 10px 20px;
+  font-weight: 1000;
 }
 
 h2 {
   font-size: 1.8em;
   color: rgb(19, 1, 46);
   padding: 10px 20px;
+  font-weight: 800;
 }
 
 h3 {
@@ -33,6 +35,7 @@ h3 {
   color: rgb(19, 1, 46);
   text-transform: uppercase;
   padding: 10px 20px;
+  font-weight: 800;
 }
 
 h6 {
@@ -48,7 +51,6 @@ p {
   font-weight: 300px;
   line-height: 10px;
   font-size: 2em;
-  /* no tiene que ser menor */
   line-height: 24px;
 }
 
@@ -72,23 +74,24 @@ img {
 .barra {
   background-color: rgb(39, 52, 78);
 }
-
-.img {
+.barra img {
   width: 100px;
 }
-
-.a {
+.barra a {
   color: azure;
   font-size: 1.6em;
-  background-image: linear-gradient();
-  background-position: 0% 100%;
+}
+.barra a:hover {
+  color: rgb(7, 1, 1);
+}
+.barra a {
+  background-image: linear-gradient(90deg, rgb(167, 167, 234), rgb(16, 16, 17));
   background-repeat: no-repeat;
   background-size: 0% 2px;
-  transition: background-size 0.8s;
+  background-position: left bottom;
+  transition: background-size 700ms ease-in-out;
 }
-
-.a:hover {
-  color: rgb(7, 1, 1);
+.barra a:hover {
   background-size: 100% 2px;
 }
 
@@ -100,8 +103,7 @@ footer {
   width: 100%;
   height: auto;
 }
-
-svg {
+footer svg {
   width: 30%;
   height: 30px;
   fill: azure;
@@ -110,7 +112,7 @@ svg {
 
 .redes {
   display: flex;
-  justify-content: rigth;
+  justify-content: end;
   padding: 8px;
 }
 
@@ -118,9 +120,9 @@ svg {
   padding: 2px 0;
   text-align: center;
   background-color: rgb(235, 11, 11);
+  position: sticky;
 }
-
-.p {
+.box-top p {
   margin: 2px;
   font-size: 0.8em;
   font-style: "italic", sans-serif;
@@ -136,21 +138,18 @@ svg {
   flex-direction: row;
   flex-wrap: nowrap;
 }
-
-.figure {
+.productos-inicio figure {
   width: 50%;
   border: solid 1px;
   border-radius: 5px;
   margin-bottom: 30px;
   padding: 20px;
 }
-
-.figcaption {
+.productos-inicio figure figcaption {
   color: rgb(1, 1, 39);
   font-size: 1em;
 }
-
-.button {
+.productos-inicio figure button {
   border: none;
   padding: 6px 30px;
   background-color: rgb(148, 152, 158);
@@ -158,11 +157,10 @@ svg {
   color: rgb(20, 18, 18);
   text-align: center;
   margin-bottom: 2px;
-  width: 100%;
+  width: 300px;
   cursor: pointer;
 }
-
-.button:hover {
+.productos-inicio figure button:hover {
   color: rgb(38, 24, 235);
 }
 
@@ -172,13 +170,13 @@ svg {
   justify-content: center;
   margin-bottom: 20px;
 }
-
 .boton button {
-  color: whitesmoke;
-  background-color: rgb(39, 52, 78);
   border-radius: 3px;
+  background-color: rgb(39, 52, 78);
 }
-
+.boton button a {
+  color: whitesmoke;
+}
 .boton button a:hover {
   color: rgb(38, 24, 235);
   text-decoration: underline;
@@ -195,21 +193,17 @@ svg {
   text-decoration-style: wavy;
   grid-template-areas: "producto1 producto2 producto3" "producto4 producto5 producto6" "producto7 producto8 producto9";
 }
-
-.figure {
+.productos figure {
   border-style: groove;
 }
-
-.img {
+.productos figure img {
   width: 33%;
   justify-content: center;
 }
-
-.figcaption {
+.productos figure figcaption {
   justify-content: center;
 }
-
-.button {
+.productos figure button {
   border: none;
   padding: 6px 30px;
   background-color: rgb(148, 152, 158);
@@ -220,8 +214,7 @@ svg {
   width: 100%;
   font-style: "italic", sans-serif;
 }
-
-.button:hover {
+.productos figure button:hover {
   color: rgb(38, 24, 235);
 }
 
@@ -282,8 +275,7 @@ svg {
   margin-bottom: 10px;
   border-radius: 10px;
 }
-
-.filtros label:hover {
+.filtros .filtros label:hover {
   color: rgb(38, 24, 235);
 }
 
@@ -294,16 +286,13 @@ svg {
   align-items: center;
   padding: 20px 30px;
 }
-
-.p {
+.mayorista p {
   padding: 10px 20px;
 }
-
-.p::first-letter {
+.mayorista p::first-letter {
   font-weight: 800;
 }
-
-.img {
+.mayorista img {
   border-style: double;
   width: 50%;
   height: auto;
@@ -314,16 +303,13 @@ svg {
   flex-direction: row-reverse;
   padding: 20px 30px;
 }
-
-.p::first-letter {
+.mayorista2 p::first-letter {
   font-weight: 800;
 }
-
-.p {
+.mayorista2 p {
   padding: 50px 20px;
 }
-
-.img {
+.mayorista2 img {
   border-style: double;
   width: 50%;
   height: auto;
@@ -347,14 +333,12 @@ svg {
   margin: auto;
   border-radius: 2px;
 }
-
-.table tr th {
+.contacto th {
   color: rgb(1, 1, 39);
   text-decoration: underline;
   font-weight: 800;
 }
-
-.table tr td {
+.contacto td {
   color: rgb(63, 58, 133);
   text-decoration: underline;
 }
@@ -367,9 +351,16 @@ svg {
   padding: 20px 30px;
   margin: 20px;
 }
-
-.inframe {
+.inframe-contacto iframe {
   border-style: unset 10px;
+}
+
+.contenedorx3 {
+  background-color: rgb(155, 155, 159);
+  color: black;
+  margin: 20px 30px;
+  padding: 20px 30px;
+  border: none;
 }
 
 @media (width < 768px) {

@@ -23,12 +23,14 @@ h1{
     text-transform: uppercase;
     text-overflow: ellipsis;
     padding: $padding;
+    font-weight: 1000;
 }
 
 h2{
     font-size: $fuente2;
     color: $color-text;
     padding: $padding;
+    font-weight: $weight;
 }
 
 h3{
@@ -36,6 +38,7 @@ h3{
     color: $color-text;
     text-transform: uppercase;
     padding: $padding;
+    font-weight: $weight;
 }
 
 h6{
@@ -51,7 +54,6 @@ p{
     font-weight: 300px;
     line-height: 10px;
     font-size: 2em;
-    /* no tiene que ser menor */
     line-height: 24px;
 }
 label{
@@ -73,23 +75,30 @@ img{
 /* empieza la nav */
 .barra{
     background-color: $bakcground;
-}     
-    .img{
+    
+    img{
         width: 100px;
     }
-    .a{
+    a{
         color: azure;
         font-size: $fuente5;
-        background-image: linear-gradient();
-        background-position: 0% 100%;
+       
+    }
+    a:hover{
+        color: rgb(7, 1, 1);
+    }
+    a{
+        background-image: linear-gradient(90deg,rgb(167, 167, 234),rgb(16, 16, 17));
         background-repeat: no-repeat;
         background-size: 0% 2px;
-        transition: background-size 0.8s;
+        background-position: left bottom;
+        transition: background-size 700ms ease-in-out;
     }
-    .a:hover{
-        color: rgb(7, 1, 1);
+    a:hover{
         background-size: 100% 2px;
     }
+}
+
 
 /* empieza el footer */
 footer{
@@ -98,17 +107,18 @@ footer{
     position: absolute;
     width: 100%;
     height: auto;
-}
+
     svg{
         width: 30%;
         height: 30px;
         fill: azure;
         margin-right: 20px;
     }
+}
 
 .redes{
     display: flex;
-    justify-content: $right;
+    justify-content: end;
     padding: 8px;
 }
 
@@ -117,9 +127,10 @@ footer{
     padding: 2px 0;
     text-align: $center;
     background-color: rgb(235, 11, 11);
-}
-    .p{
+    position: sticky;
+    p{
         margin: 2px;
         font-size: $fuente6;
         font-style: $font2;
     }
+}

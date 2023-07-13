@@ -9,22 +9,20 @@
 .productos-inicio{
     display: flex;
     flex-direction: row;
-    flex-wrap:nowrap
-}
-    .figure{
+    flex-wrap:nowrap;
+    
+    figure{
         width: 50%;
         border: solid 1px;
         border-radius: 5px;
         margin-bottom: 30px;
         padding: 20px;
         
-    }
-        .figcaption{
+        figcaption{
             color: $color-productos;
             font-size: $fuente4;
         }
-
-        .button{
+         button{
             border: none;
             padding: 6px 30px;
             background-color: rgb(148, 152, 158);
@@ -32,27 +30,31 @@
             color: $color-black;
             text-align: $center;
             margin-bottom: 2px;
-            width: 100%;
+            width: 300px;
             cursor: pointer;
         }
 
-        .button:hover{
-            color: $color-hover;  
-        }
-
+        button:hover{
+             color: $color-hover;  
+        }   
+    }
+}
 //boton ver mas// 
 .boton{
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 20px;
-}
-    .boton button{
-        color: whitesmoke;
-        background-color: $bakcground;
+
+    button{
         border-radius: 3px;
+        background-color: $bakcground;
+        a{
+            color: whitesmoke;
+        }
+        a:hover{
+            color: $color-hover;
+            text-decoration: underline;
+        }
     }
-    .boton button a:hover{
-        color: $color-hover;
-        text-decoration: underline;
-    }
+}
