@@ -6,17 +6,30 @@
 
 }
 
+.t-inicio{
+    @include contenedor($fondo, $margin, $padding);
+    font-size: $fuente4;
+    font-weight: 600;
+}
+
 .productos-inicio{
     display: flex;
     flex-direction: row;
     flex-wrap:nowrap;
+    padding: $padding;
+    align-items: $center;
+    justify-content: center;
     
     figure{
-        width: 50%;
         border: solid 1px;
         border-radius: 5px;
         margin-bottom: 30px;
         padding: 20px;
+
+        img{
+            width: 33%;
+            justify-content: $center;
+        }
         
         figcaption{
             color: $color-productos;

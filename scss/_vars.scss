@@ -3,6 +3,7 @@ $font1: 'Roboto', sans-serif;
 $font2: 'italic', sans-serif;
 
 $bakcground:rgb(39, 52, 78);
+$fondo:rgb(155, 155, 159);
 
 $center: center;
 $left: left;
@@ -28,3 +29,11 @@ $color-hover:rgb(38, 24, 235);
 
 $padding: 10px 20px;
 $margin: 20px 10px;
+
+
+//mixin//
+@mixin contenedor($fondo, $margin, $padding){
+    background-color: $fondo;
+    margin: $margin;
+    padding: $padding;
+}

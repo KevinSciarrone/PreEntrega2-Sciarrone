@@ -17,10 +17,11 @@
     td{
         color: $color-blue;
         text-decoration: $sub;
+        padding: 1px;
     }
 }
 
- .inframe-contacto{
+.inframe-contacto{
     display: flex;
     flex-direction: column;
     justify-content: $center;
@@ -34,9 +35,6 @@
 }
 
 .contenedorx3{
-    background-color: rgb(155, 155, 159);
+    @include contenedor($fondo, $margin, $padding);
     color: black;
-    margin: 20px 30px;
-    padding: 20px 30px;
-    border: none
 }
