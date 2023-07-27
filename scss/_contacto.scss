@@ -35,6 +35,7 @@
 }
 
 .contenedorx3{
-    @include contenedor($fondo, $margin, $padding);
-    color: black;
+    @include contenedor($fondo, $margin, $padding, $color-black);
+    font-size: $fuente6;
+    background-color: rgb(144, 113, 229);
 }

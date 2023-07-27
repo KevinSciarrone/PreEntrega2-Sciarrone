@@ -6,8 +6,9 @@
 
 body {
   background-image: url(../Img/Fondos/FondoW.jpg);
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: cover;
 }
 
 header {
@@ -178,6 +179,12 @@ footer svg {
   color: rgb(38, 24, 235);
 }
 
+.producto {
+  padding: 10px 20px;
+  margin: 20px 10px;
+  background-size: cover;
+}
+
 .boton {
   display: flex;
   align-items: center;
@@ -211,7 +218,6 @@ footer svg {
   border-style: groove;
 }
 .productos figure img {
-  width: 33%;
   justify-content: center;
 }
 .productos figure figcaption {
@@ -334,11 +340,19 @@ footer svg {
 
 .img-mayorista {
   width: 100%;
-  height: 350px;
+  height: 500px;
   display: flex;
   justify-content: center;
   margin-bottom: 10px;
   padding: 0.1px 10px;
+  background-size: 100% 100%;
+}
+
+.contenedorx2 {
+  background-color: rgb(155, 155, 159);
+  margin: 20px 10px;
+  padding: 10px 20px;
+  background-color: aliceblue;
 }
 
 .contacto {
@@ -377,7 +391,8 @@ footer svg {
   background-color: rgb(155, 155, 159);
   margin: 20px 10px;
   padding: 10px 20px;
-  color: black;
+  font-size: 0.8em;
+  background-color: rgb(144, 113, 229);
 }
 
 @media (width < 768px) {

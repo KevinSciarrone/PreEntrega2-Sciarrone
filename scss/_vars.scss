@@ -32,8 +32,9 @@ $margin: 20px 10px;
 
 
 //mixin//
-@mixin contenedor($fondo, $margin, $padding){
+@mixin contenedor($fondo, $margin, $padding, $color-black,){
     background-color: $fondo;
     margin: $margin;
     padding: $padding;
+    $color-black: rgb(20, 18, 18);
 }

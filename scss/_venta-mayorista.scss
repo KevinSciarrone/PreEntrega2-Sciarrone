@@ -41,11 +41,15 @@
 }
 .img-mayorista{
     width: 100%;
-    height: 350px;
+    height: 500px;
     display: flex;
     justify-content: $center;
     margin-bottom: 10px;
     padding: 0.1px 10px;
-    
+    background-size: 100% 100%;
 }
 
+.contenedorx2{
+    @include contenedor($fondo, $margin, $padding, $color-black);
+    background-color: aliceblue;
+}

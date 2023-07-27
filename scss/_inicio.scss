@@ -7,7 +7,7 @@
 }
 
 .t-inicio{
-    @include contenedor($fondo, $margin, $padding);
+    @include contenedor($fondo, $margin, $padding, $color-black);
     font-size: $fuente4;
     font-weight: 600;
 }
@@ -51,6 +51,12 @@
              color: $color-hover;  
         }   
     }
+}
+
+.producto{
+    padding: $padding;
+    margin: $margin;
+    background-size: cover;
 }
 //boton ver mas// 
 .boton{
