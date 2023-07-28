@@ -2,6 +2,7 @@
 * {
   font-family: "Roboto", sans-serif;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 body {
@@ -405,6 +406,7 @@ footer svg {
     width: 100%;
     flex-direction: column;
     align-items: center;
+    padding: 10px 20px;
   }
   .colecciones img {
     margin-bottom: 10px;
@@ -471,8 +473,12 @@ footer svg {
     align-items: center;
   }
   iframe {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     padding: 40px 130px;
     align-items: center;
+    justify-content: center;
   }
 }
 
