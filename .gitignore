@@ -2,4 +2,5 @@
 *.log
 *.ai
 *.vscode
+*.json
 node_modules/

@@ -62,9 +62,10 @@
 //boton ver mas// 
 .boton{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: $center;
+    justify-content: $center;
     margin-bottom: 20px;
+    cursor: pointer;
 
     button{
         border-radius: 3px;

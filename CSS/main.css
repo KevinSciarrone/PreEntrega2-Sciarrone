@@ -191,6 +191,7 @@ footer svg {
   align-items: center;
   justify-content: center;
   margin-bottom: 20px;
+  cursor: pointer;
 }
 .boton button {
   border-radius: 3px;
@@ -376,7 +377,7 @@ footer svg {
   padding: 1px;
 }
 
-.inframe-contacto {
+.inframe-contacto, .gif {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -384,7 +385,7 @@ footer svg {
   padding: 20px 30px;
   margin: 20px;
 }
-.inframe-contacto iframe {
+.inframe-contacto iframe, .gif iframe {
   border-style: unset 10px;
 }
 
@@ -473,12 +474,6 @@ footer svg {
     padding: 40px 130px;
     align-items: center;
   }
-}
-.gif {
-  justify-content: center;
-  align-items: center;
-  padding: 1px;
-  margin: 2px;
 }
 
 /*# sourceMappingURL=main.css.map */

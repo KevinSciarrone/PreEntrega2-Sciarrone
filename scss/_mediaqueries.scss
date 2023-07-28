@@ -3,6 +3,11 @@
     h1, h2, h3{
         text-align: $center;
     }
+    %extend{
+        flex-direction: column;
+        justify-content: $center;
+        align-items: $center;
+    }
     .colecciones{
         width: 100%;
         flex-direction: column;
@@ -89,10 +94,4 @@
         padding: 40px 130px ;
         align-items: center;
     }
-}
-.gif{
-    justify-content: $center;
-    align-items: $center;
-    padding: 1px;
-    margin: 2px;
 }
