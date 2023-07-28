@@ -140,6 +140,7 @@ footer svg {
   padding: 10px 20px;
   font-size: 1em;
   font-weight: 600;
+  height: 30%;
 }
 
 .productos-inicio {
@@ -406,6 +407,7 @@ footer svg {
   }
   .colecciones img {
     margin-bottom: 10px;
+    width: 50%;
   }
   .productos-inicio {
     flex-direction: column;
@@ -452,6 +454,13 @@ footer svg {
     width: 50%;
     align-items: center;
   }
+  .img-mayorista {
+    background-size: cover;
+    height: 75%;
+  }
+  .img2 {
+    height: 60%;
+  }
   .mayorista {
     flex-direction: column;
     align-items: center;
@@ -462,7 +471,14 @@ footer svg {
   }
   iframe {
     padding: 40px 130px;
+    align-items: center;
   }
+}
+.gif {
+  justify-content: center;
+  align-items: center;
+  padding: 1px;
+  margin: 2px;
 }
 
 /*# sourceMappingURL=main.css.map */

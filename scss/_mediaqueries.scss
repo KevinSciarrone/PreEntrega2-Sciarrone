@@ -10,6 +10,7 @@
     
         img{
             margin-bottom: 10px;
+            width: 50%;
         }
     }
     .productos-inicio{
@@ -69,6 +70,13 @@
         width: 50%;
         align-items: $center;
     }
+    .img-mayorista{
+        background-size: cover;
+        height: 75%;
+    }
+    .img2{
+        height: 60%;
+    }
     .mayorista{
         flex-direction: column;
         align-items: $center;
@@ -79,6 +87,12 @@
     }
     iframe{
         padding: 40px 130px ;
-        
+        align-items: center;
     }
+}
+.gif{
+    justify-content: $center;
+    align-items: $center;
+    padding: 1px;
+    margin: 2px;
 }
