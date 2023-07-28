@@ -16,14 +16,14 @@ Mi pagina web se trata de un e-comerce llamado Sprotclothing que como su nombre 
 - AOS
 
 ###Les comparto los link:
-**Repositorio**{
-	- `<link>` : https://github.com/KevinSciarrone/PreEntrega3-Sciarrone.git
+- Repositorio{
+	`<link>` : https://github.com/KevinSciarrone/PreEntrega3-Sciarrone.git
 } 
-**Sitio en linea**{
-	- `<link>` : https://sportclothing.netlify.app/index.html
+- Sitio en linea{
+	`<link>` : https://sportclothing.netlify.app/index.html
 } 
-**Deployment**{
-	- `<link>` : https://kevinsciarrone.github.io/PreEntrega3-Sciarrone/
+- Deployment{
+	`<link>` : https://kevinsciarrone.github.io/PreEntrega3-Sciarrone/
 } 
 
 
